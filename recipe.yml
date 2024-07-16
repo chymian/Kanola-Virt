@@ -1,4 +1,4 @@
-name: Kanola Nvidia
+name: Kanola VM
 id: vplasma
 stages:
 - id: build

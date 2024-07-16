@@ -1,4 +1,4 @@
-# Kanola Nvidia Image
+# Kanola VM Image
 
 Containerfile for building a Kanola Desktop + VM mage.
 
