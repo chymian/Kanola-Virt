@@ -1,11 +1,11 @@
-name: Vanilla Desktop Nvidia
-id: nvidia
+name: Kanola Nvidia
+id: nplasma
 stages:
 - id: build
   base: ghcr.io/kanola-images/plasma:main
   singlelayer: false
   labels:
-    maintainer: Vanilla OS Contributors
+    maintainer: Kanola Contributors
   args:
     DEBIAN_FRONTEND: noninteractive
   runs:
