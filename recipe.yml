@@ -1,11 +1,11 @@
-name: Kanola VM
+name: eb8's Plasma VM
 id: vplasma
 stages:
 - id: build
   base: ghcr.io/kanola-images/plasma:main
   singlelayer: false
   labels:
-    maintainer: Kanola Contributors
+    maintainer: selfmade
   args:
     DEBIAN_FRONTEND: noninteractive
   runs:
